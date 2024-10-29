@@ -1,4 +1,4 @@
-name: upscale_env_3
+name: Real_ESRGAN
 channels:
   - pytorch
   - nvidia
