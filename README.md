@@ -1,20 +1,17 @@
 # Real-ESRGAN
 PyTorch implementation of a Real-ESRGAN model trained on custom dataset. This model shows better results on faces compared to the original version. It is also easier to integrate this model into your projects.
 
-> This is not an official implementation. We partially use code from the [original repository](https://github.com/xinntao/Real-ESRGAN)
+> This is forked from the ai-forever implementation, which is in turn derived from the [original Real ESRGAN](https://github.com/xinntao/Real-ESRGAN). This version contains training weights and bug fixes for deployment on HPC.
 
 Real-ESRGAN is an upgraded [ESRGAN](https://arxiv.org/abs/1809.00219) trained with pure synthetic data is capable of enhancing details while removing annoying artifacts for common real-world images. 
 
-You can try it in [google colab](https://colab.research.google.com/drive/1YlWt--P9w25JUs8bHBOuf8GcMkx-hocP?usp=sharing) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YlWt--P9w25JUs8bHBOuf8GcMkx-hocP?usp=sharing)
-
 - [Paper (Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data)](https://arxiv.org/abs/2107.10833)
 - [Original implementation](https://github.com/xinntao/Real-ESRGAN)
-- [Huggingface 🤗](https://huggingface.co/sberbank-ai/Real-ESRGAN)
 
 ### Installation
 
 ```bash
-pip install git+https://github.com/sberbank-ai/Real-ESRGAN.git
+pip install git+https://github.com/ajharvie/Real-ESRGAN.git
 ```
 
 ### Usage
