@@ -1,4 +1,4 @@
-name: Real_ESRGAN
+name: Real-ESRGAN
 channels:
   - pytorch
   - nvidia

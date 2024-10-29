@@ -19,7 +19,7 @@ A conda environment set up for HPC use is provided. This can be set up with
 ```bash
 conda env create -f environment.yml
 
-conda activate Real_ESRGAN
+conda activate Real-ESRGAN
 
 ```
 
