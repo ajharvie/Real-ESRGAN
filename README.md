@@ -14,6 +14,15 @@ Real-ESRGAN is an upgraded [ESRGAN](https://arxiv.org/abs/1809.00219) trained wi
 pip install git+https://github.com/ajharvie/Real-ESRGAN.git
 ```
 
+A conda environment set up for HPC use is provided. This can be set up with
+
+```bash
+conda env create -f environment.yml
+
+conda activate Real_ESRGAN
+
+```
+
 ### Usage
 
 ---
